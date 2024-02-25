@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dedupe from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-dedupe@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-dedupe/tags). For example,
+
+```javascript
 import dedupe from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-dedupe@v0.2.1-deno/mod.js';
 ```
 
@@ -116,7 +121,7 @@ var y = dedupe( x, 2, false );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dedupe from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-dedupe@v0.2.1-deno/mod.js';
+import dedupe from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-dedupe@deno/mod.js';
 
 // Create an array of random numbers:
 var x = discreteUniform( 30, 0, 5, {
